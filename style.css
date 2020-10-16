@@ -1,0 +1,139 @@
+.header{
+    background: rgb(102, 140, 255);
+}
+.header-logo{
+
+}
+.header-logo img{
+    width: 200px;
+}
+.header-menu{}
+.header-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+    
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    
+}
+
+.header-menu ul li a:hover{
+    background: turquoise;
+    padding: 0 30px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+
+/*banner section */
+
+.banner{
+    background-image: url(./Image/img_banner-thin_mountains-1.jpg);
+    padding: 200px 0;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-text h1{
+    background: rgba(0, 237, 245, 0.5);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.banner-text h2{
+    background: rgba(147, 59, 168, 0.5);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+/*about section*/
+.about{
+    background: #dddddd;
+    margin-top: 10px;
+}
+.about h1{
+    font-size: 30px;
+}
+.about h2{
+color: rgba(212, 30, 121, 0.6);
+font-size: 50px;
+}
+.moinul i{
+    text-align: center;
+  
+    background: rgb(37, 198, 204);
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 0px 30px;
+    line-height: 80px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div1 {
+    background: rgba(128, 128, 128, 0.2);
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* social-links*/
+.social-link1 {
+    background: rgba(128, 128, 128, 0.5);
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    
+}
+.link i{
+    font-size: 30px;
+    color: rgb(102, 140, 255);
+    height: 80px;
+    width: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.youtube{
+    color: red;
+}
+
+/* Product Section */
+img{
+    max-width: 100%;
+}
+.produced-item p{
+    font-size: 20px;
+}
+
+/*list */
+.list{
+    background: rgba(128, 128, 128, 0.1);
+    border: 1px solid black;
+
+}
+.list a{
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: rgba(128, 128, 128, 0.5);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
